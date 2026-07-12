@@ -44,8 +44,7 @@ const dataEkskul = [
     nama: "Futsal",
     koordinator: "Mulyadi, S.H., Gr.",
     anggota: [
-      "Rifky Ibnu Abdul A., S.Pd., Gr.",
-      "Muhammad Afwan Maulana, S.Pd., Gr."
+      "Rifky Ibnu Abdul A., S.Pd., Gr."
     ]
   },
 
@@ -130,7 +129,10 @@ const dataEkskul = [
     no: 16,
     nama: "Literasi",
     koordinator: "Mahdalena, S.Pd., Gr.",
-    anggota: []
+    anggota: [
+        "Hasni Salondong, S.Pd., Gr.",
+        "Imas Komala, S.Pd., Gr."
+    ]
   },
 
   {
@@ -140,7 +142,7 @@ const dataEkskul = [
     anggota: [
       "Hasni Salondong, S.Pd., Gr.",
       "Natalia Tivo, S.Pd., Gr.",
-      "Fetrus Fredy, S.Pd., M.AP., Gr.",
+      "Maleaki Karaeng Lolo, S.Pd.K.",
       "Jasmir, S.Pd"
     ]
   },
