@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pembagian Tugas Guru | SMA Negeri 2 Sendawar</title>
+
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --secondary: #38bdf8;
+      --accent: #22c55e;
+      --bg: linear-gradient(135deg, #0f172a, #1e293b);
+      --card: rgba(255,255,255,0.96);
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: "Segoe UI", system-ui, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      color: #fff;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 440px;
+      background: var(--card);
+      color: #0f172a;
+      border-radius: 22px;
+      padding: 32px 26px 36px;
+      text-align: center;
+      box-shadow: 0 30px 60px rgba(0,0,0,.45);
+      animation: fadeUp 1s ease;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* LOGO */
+    .logo-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    .logo-row img {
+      width: 64px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%,100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+
+    .badge {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--secondary), var(--accent));
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 16px;
+      font-size: .85rem;
+      line-height: 1.4;
+      margin-bottom: 18px;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(34,197,94,.6); }
+      70% { box-shadow: 0 0 0 12px rgba(34,197,94,0); }
+      100% { box-shadow: 0 0 0 0 rgba(34,197,94,0); }
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      margin: 12px 0 6px;
+      color: var(--primary);
+    }
+
+    h2 {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #475569;
+      margin-bottom: 18px;
+    }
+
+    .message {
+      font-size: .95rem;
+      line-height: 1.65;
+      color: #334155;
+      margin-bottom: 26px;
+    }
+
+    .message strong {
+      color: var(--primary);
+    }
+
+    footer {
+      margin-top: 18px;
+      font-size: .75rem;
+      color: #64748b;
+      line-height: 1.4;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      margin-top: 22px;
+      padding: 14px;
+      font-size: 1rem;
+      border-radius: 14px;
+      border: none;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: #fff;
+      cursor: pointer;
+      transition: transform .2s, box-shadow .2s;
+      box-shadow: 0 10px 22px rgba(30,58,138,.45);
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 30px rgba(30,58,138,.55);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- LOGO TENGAH ATAS -->
+    <div class="logo-row">
+      <img src="logo-provinsi.png" alt="Logo Provinsi Kalimantan Timur">
+      <img src="logo-sman2.png" alt="Logo SMA Negeri 2 Sendawar">
+    </div>
+
+    <!-- BADGE -->
+    <span class="badge">
+      Pembagian Tugas Guru SMAN 2 Sendawar<br>
+      Semester Genap Tahun Pelajaran 2025 / 2026
+    </span>
+
+    <!-- PESAN UTAMA -->
+    <div class="message">
+      Terima kasih atas <strong>dedikasi</strong>, <strong>tanggung jawab</strong>,
+      dan <strong>pengabdian</strong> Bapak/Ibu Guru dalam melaksanakan
+      tugas pembelajaran dan pembimbingan yang terbaik
+      pada <strong>semester sebelumnya</strong>.
+      <br><br>
+      Memasuki <strong>Semester Genap</strong>, kami berharap semangat
+      kolaborasi, profesionalisme, dan komitmen bersama senantiasa terjaga
+      dalam mendukung proses pendidikan yang bermakna
+      bagi seluruh peserta didik di SMA Negeri 2 Sendawar.
+    </div>
+
+    <!-- PENUTUP -->
+    <footer>
+     ---<br>
+      <strong>Tim Pengembang Kurikulum<br>SMA Negeri 2 Sendawar</strong>
+    </footer>
+
+    <!-- TOMBOL AKSI PALING BAWAH -->
+    <a href="login.html" class="btn">
+      Masuk & Lihat Rincian Tugas
+    </a>
+
+  </div>
+</body>
+</html>
