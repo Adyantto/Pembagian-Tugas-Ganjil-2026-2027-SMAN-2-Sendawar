@@ -122,7 +122,9 @@ const dataEkskul = [
     no: 15,
     nama: "Tarian Daerah dan Modern",
     koordinator: "Yuniati",
-    anggota: []
+    anggota: [
+        "Giachinta Suwirani K., S.Pd"
+    ]
   },
 
   {
