@@ -1,7 +1,7 @@
 /* =====================================================
    DATABASE GURU PIKET
    SMA NEGERI 2 SENDAWAR
-   Semester Ganjil Tahun Pelajaran 2025 / 2026
+   Semester Ganjil Tahun Pelajaran 2026 / 2027
    ===================================================== */
 
 const dataGuruPiket = [
