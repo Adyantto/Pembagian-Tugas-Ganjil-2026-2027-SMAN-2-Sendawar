@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Lampiran Surat Keputusan Wali Kelas</title>
+
+<style>
+/* ================= A4 ================= */
+@page{
+  size: A4;
+  margin: 3cm 2.5cm 3cm 2.5cm;
+}
+
+body{
+  margin:0;
+  font-family:"Times New Roman", serif;
+  font-size:11pt;
+}
+
+/* ================= KOP ================= */
+.kop img{
+  width:100%;
+  height:auto;
+  display:block;
+  margin-bottom:18px;
+}
+
+/* ================= JUDUL ================= */
+.judul{
+  text-align:center;
+  font-weight:bold;
+  line-height:1.6;
+  margin-bottom:20px;
+  font-size:12pt;
+}
+
+/* ================= TABEL ================= */
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+th, td{
+  border:1px solid #000;
+  padding:6px;
+  white-space:nowrap; /* jaga 1 baris */
+}
+
+th{
+  text-align:center;
+  font-size:11pt;
+}
+
+td{
+  font-size:10.5pt;
+}
+
+.no{ width:5%; text-align:center; }
+.nama{ width:35%; }
+.nip{ width:25%; text-align:center; }
+.tugas{ width:35%; }
+
+/* ================= TTD ================= */
+.footer{
+  margin-top:40px;
+  width:100%;
+}
+.footer td{
+  border:none;
+  font-size:11pt;
+}
+</style>
+</head>
+
+<body>
+
+<!-- ================= KOP SEKOLAH ================= -->
+<div class="kop">
+  <img src="KOP SEKOLAH.png" alt="Kop Sekolah">
+</div>
+
+<!-- ================= JUDUL ================= -->
+<div class="judul">
+  LAMPIRAN SURAT KEPUTUSAN KEPALA SMAN 2 SENDAWAR<br>
+    NOMOR : 400.3.8.1/713/SMAN 2 SDWR/2025<br>
+  <br>
+  TENTANG PENUGASAN WALI KELAS<br>
+  SEMESTER GENAP TAHUN PELAJARAN 2025/2026
+</div>
+
+<!-- ================= TABEL ================= -->
+<table>
+<thead>
+<tr>
+  <th class="no">No</th>
+  <th class="nama">Nama Guru</th>
+  <th class="nip">NIP</th>
+  <th class="tugas">Penugasan</th>
+</tr>
+</thead>
+<tbody id="dataWaliKelas"></tbody>
+</table>
+
+<!-- ================= TTD ================= -->
+<table class="footer">
+<tr>
+<td width="60%"></td>
+<td>
+Sendawar, 05 Januari 2026<br>
+Kepala SMA Negeri 2 Sendawar<br><br><br><br>
+<b>Fardinandus Erikson, S.Fil</b><br>
+NIP. 19691010 200801 1 026
+</td>
+</tr>
+</table>
+
+<!-- ================= DATABASE ================= -->
+<script src="data/username.js"></script>
+<script src="data/pembagian-tugas.js"></script>
+
+<script>
+// ===================================================
+// AMBIL DATA WALI KELAS (BUKAN GURU WALI)
+// ===================================================
+let data = pembagianTugas.filter(t =>
+  t.jenis === "tambahan" &&
+  t.uraian.startsWith("Wali Kelas")
+);
+
+// ===================================================
+// FUNGSI URUT KELAS (X A → XII H)
+// ===================================================
+const urutKelas = teks => {
+  // contoh: "Wali Kelas XI B"
+  const m = teks.match(/kelas\s+(xii|xi|x)\s+([a-h])/i);
+  if(!m) return 9999;
+
+  const mapTingkat = { x:1, xi:2, xii:3 };
+  return (mapTingkat[m[1].toLowerCase()] * 100) +
+         (m[2].toUpperCase().charCodeAt(0) - 64);
+};
+
+// SORT SESUAI URUTAN DINAS
+data.sort((a,b)=> urutKelas(a.uraian) - urutKelas(b.uraian));
+
+// ===================================================
+// TAMPILKAN DATA
+// ===================================================
+const tbody = document.getElementById("dataWaliKelas");
+let no = 1;
+
+data.forEach(item=>{
+  const guru = masterGuru.find(g=>g.username===item.username) || {};
+
+  tbody.innerHTML += `
+    <tr>
+      <td class="no">${no++}</td>
+      <td class="nama">${guru.nama || "-"}</td>
+      <td class="nip">${guru.nip || "-"}</td>
+      <td class="tugas">${item.uraian}</td>
+    </tr>
+  `;
+});
+</script>
+
+</body>
+</html>
