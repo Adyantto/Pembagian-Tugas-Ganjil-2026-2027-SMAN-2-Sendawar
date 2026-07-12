@@ -6,8 +6,8 @@
 
 <style>
 @page{
-    size:A4;  
-    margin:15mm;
+  size:A4;
+  margin:20mm;
 }
 
 body{
@@ -17,25 +17,21 @@ body{
   color:#000;
 }
 
+/* ====== PAGE BREAK ====== */
+.page-break{
+  page-break-before: always;
+}
+
 /* ====== KOP ====== */
-body{
-    font-family:"Times New Roman", serif;
-    font-size:12pt;
-    margin:0;
-}
-
-.isi{
-    line-height:1.25;
-}
-
-.isi td{
-    padding:1px 3px;
+.kop img{
+  width:100%;
+  margin-bottom:10px;
 }
 
 /* ====== JUDUL ====== */
 .judul{
   text-align:center;
-  margin:13px 0;
+  margin:12px 0;
 }
 
 .judul h3{
@@ -58,7 +54,7 @@ body{
 /* ====== ISI ====== */
 .isi{
   text-align:justify;
-  line-height:1.2;
+  line-height:1.45;
 }
 
 .isi table{
@@ -74,15 +70,15 @@ body{
 
 /* ====== TTD ====== */
 .ttd{
-  width:38%;
+  width:40%;
   margin-left:auto;
-  margin-top:20px;
+  margin-top:40px;
   text-align:center;
 }
 
 .ttd p{
   margin:2px 0;
-  line-height:1.2;
+  line-height:1.4;
 }
 
 .ttd .jabatan{
@@ -195,6 +191,7 @@ body{
 </p>
 
 </div>
+
 <div class="ttd">
   <p>Ditetapkan di : Sendawar</p>
   <p>Pada tanggal : 13 Juli 2026</p>
