@@ -133,7 +133,7 @@ const dataEkskul = [
     koordinator: "Mahdalena, S.Pd., Gr.",
     anggota: [
         "Hasni Salondong, S.Pd., Gr.",
-        "Imas Komala, S.Pd., Gr."
+        "Imas Komala, M.Pd., Gr."
     ]
   },
 
