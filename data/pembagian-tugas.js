@@ -32,7 +32,7 @@ const pembagianTugas = [
 { username:"198907282024212026", jenis:"tambahan", uraian:"Guru Wali", kelas:"", jp:2 },
 
 /* ========== ANASTASIA RENDO ========== */
-{ username:"Anastasia Rendo", jenis:"mengajar", uraian:"Agama Katolik", kelas:"XI E, F, G, H, X A, B, C, D, F, G, H, J, K", jp:39 },
+{ username:"Anastasia Rendo", jenis:"mengajar", uraian:"Agama Katolik", kelas:"XI E, F, G, H, X A, B, C, D, F, G, H, I, J, K", jp:42 },
 { username:"Anastasia Rendo", jenis:"tambahan", uraian:"Guru Wali", kelas:"", jp:2 },
 
 /* ========== ELISIUS JUNAIDI ========== */
@@ -60,7 +60,7 @@ const pembagianTugas = [
 
 /* ========== FEBE NOVITA SARI ========== */
 { username:"198911302024212019", jenis:"mengajar", uraian:"SBK", kelas:"XII A, B, C, D", jp:8 },
-{ username:"198911302024212019", jenis:"mengajar", uraian:"Agama Kristen", kelas:"X A, B, C, D, E", jp:15 },
+{ username:"198911302024212019", jenis:"mengajar", uraian:"Agama Kristen", kelas:"X A, B, C, D", jp:12 },
 { username:"198911302024212019", jenis:"tambahan", uraian:"Koor. Projek Kelas XI G", kelas:"", jp:2 },
 { username:"198911302024212019", jenis:"tambahan", uraian:"Koor. Projek Kelas XI H", kelas:"", jp:2 },
 { username:"198911302024212019", jenis:"tambahan", uraian:"Koor. Projek Kelas XII H", kelas:"", jp:2 },
@@ -74,7 +74,7 @@ const pembagianTugas = [
 
 /* ========== FIDELIS ANASTASIUS F. ========== */
 { username:"Fidelis Anastasius F.", jenis:"mengajar", uraian:"PJOK", kelas:"XI A, B, C, D, E, F", jp:18 },
-{ username:"Fidelis Anastasius F.", jenis:"mengajar", uraian:"Muatan Lokal", kelas:"XI A, B, C, D, E, F, G, H", jp:16 },
+{ username:"Fidelis Anastasius F.", jenis:"mengajar", uraian:"Muatan Lokal", kelas:"XI A, B, C, D, E, F, G", jp:14 },
 { username:"Fidelis Anastasius F.", jenis:"tambahan", uraian:"Koor. Projek Kelas X J", kelas:"", jp:2 },
 { username:"Fidelis Anastasius F.", jenis:"tambahan", uraian:"Koor. Projek Kelas X K", kelas:"", jp:2 },
 { username:"Fidelis Anastasius F.", jenis:"tambahan", uraian:"Koor. Projek Kelas XII G", kelas:"", jp:2 },
@@ -110,7 +110,7 @@ const pembagianTugas = [
 /* ========== JASMIR ========== */
 { username:"199712312025211047", jenis:"mengajar", uraian:"Agama Islam", kelas:"XI E, F, G, H", jp:12 },
 { username:"199712312025211047", jenis:"mengajar", uraian:"SBK", kelas:"XI G, H", jp:4 },
-{ username:"199712312025211047", jenis:"mengajar", uraian:"Agama Islam", kelas:"X A, B, C, D, F, G, H, J, K", jp:27 },
+{ username:"199712312025211047", jenis:"mengajar", uraian:"Agama Islam", kelas:"X A, B, C, D, F, G, H, I, J, K", jp:30 },
 { username:"199712312025211047", jenis:"tambahan", uraian:"Guru Wali", kelas:"", jp:2 },
 
 /* ========== JUFRIN ========== */
@@ -139,12 +139,12 @@ const pembagianTugas = [
 
 /* ========== MAHDALENA ========== */
 { username:"199209292023212018", jenis:"mengajar", uraian:"Bahasa Indonesia", kelas:"XI C, D, E, F", jp:16 },
-{ username:"199209292023212018", jenis:"mengajar", uraian:"Bahasa Indonesia", kelas:"X D, E", jp:8 },
+{ username:"199209292023212018", jenis:"mengajar", uraian:"Bahasa Indonesia", kelas:"X D, E, F", jp:12 },
 { username:"199209292023212018", jenis:"tambahan", uraian:"Guru Wali", kelas:"", jp:2 },
    
 /* ========== MALEAKI KARAENG LOLO ========== */
 { username:"197903192024211002", jenis:"mengajar", uraian:"SBK", kelas:"XII E, F, G", jp:6 },
-{ username:"197903192024211002", jenis:"mengajar", uraian:"Agama Kristen", kelas:"X F, G, H, I, J", jp:15 },
+{ username:"197903192024211002", jenis:"mengajar", uraian:"Agama Kristen", kelas:"X E, F, G, H, I, J", jp:18 },
 { username:"197903192024211002", jenis:"tambahan", uraian:"Koor. Projek Kelas XII A", kelas:"", jp:2 },
 { username:"197903192024211002", jenis:"tambahan", uraian:"Koor. Projek Kelas XII B", kelas:"", jp:2 },
 { username:"197903192024211002", jenis:"tambahan", uraian:"Koor. Projek Kelas XII C", kelas:"", jp:2 },
@@ -185,7 +185,7 @@ const pembagianTugas = [
 
 /* ========== MUHAMMAD NASIR ========== */
 { username:"198902022024211015", jenis:"mengajar", uraian:"Bahasa Indonesia", kelas:"XI G, H", jp:8 },
-{ username:"198902022024211015", jenis:"mengajar", uraian:"Bahasa Indonesia", kelas:"X G, H, J, K", jp:16 },
+{ username:"198902022024211015", jenis:"mengajar", uraian:"Bahasa Indonesia", kelas:"X G, H, I, J, K", jp:20 },
 { username:"198902022024211015", jenis:"tambahan", uraian:"Guru Wali", kelas:"", jp:2 },
    
 /* ========== MULYADI ========== */
@@ -263,6 +263,7 @@ const pembagianTugas = [
 /* ========== RILATI SRI WAHYUNI ========== */
 { username:"199604272024212035", jenis:"mengajar", uraian:"Kimia", kelas:"XI G, H", jp:10 },
 { username:"199604272024212035", jenis:"mengajar", uraian:"Kimia", kelas:"X A, B, C, D, E, F", jp:18 },
+{ username:"199604272024212035", jenis:"mengajar", uraian:"Muatan Lokal", kelas:"XI H", jp:2 },
 { username:"199604272024212035", jenis:"tambahan", uraian:"Wali Kelas XI H", kelas:"", jp:2 },
 { username:"199604272024212035", jenis:"tambahan", uraian:"Guru Wali", kelas:"", jp:2 },
 
