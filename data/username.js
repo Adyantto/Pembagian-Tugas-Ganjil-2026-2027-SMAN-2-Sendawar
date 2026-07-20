@@ -18,7 +18,7 @@ const masterGuru = [
   { username:"198110172010012022", nip:"19811017 201001 2 022", nama:"Sumarmi, S.Pd., Gr." },
   { username:"198207282025211048", nip:"19820728 202521 1 048", nama:"M. Nasir, S.Sy., Gr." },
   { username:"198212282024211011", nip:"19821228 202421 1 011", nama:"Yosep Arakian Lepabatang, S.S., Gr." },
-  { username:"198304112024212012", nip:"19830411 202421 2 012", nama:"Imas Komala, S.Pd., Gr." },
+  { username:"198304112024212012", nip:"19830411 202421 2 012", nama:"Imas Komala, M.Pd., Gr." },
   { username:"198310102022211022", nip:"19831010 202221 1 022", nama:"Mulyadi, S.H., Gr." },
   { username:"198403052022211022", nip:"19840305 202221 1 022", nama:"Stivan Margus Picasouw, S.Pd., Gr." },
   { username:"198501252022211016", nip:"19850125 202221 1 016", nama:"Jufrin, S.Pd., Gr." },
