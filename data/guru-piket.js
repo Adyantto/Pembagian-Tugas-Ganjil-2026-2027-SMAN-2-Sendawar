@@ -68,7 +68,6 @@ const dataGuruPiket = [
   ]
 },
 
-
 /* ================= RABU ================= */
 {
   hari: "Rabu",
@@ -100,7 +99,6 @@ const dataGuruPiket = [
   ]
 },
 
-
 /* ================= KAMIS ================= */
 {
   hari: "Kamis",
@@ -131,7 +129,6 @@ const dataGuruPiket = [
     }
   ]
 },
-
 
  /* ================= JUMAT ================= */
 {
