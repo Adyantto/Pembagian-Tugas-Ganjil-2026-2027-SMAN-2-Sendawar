@@ -85,7 +85,7 @@ const dataGuruPiket = [
       guru: [
         "Febe Novita Sari, S.Pd.K",
         "Nurmaya Sihotang, S.Pd., M.Pd., Gr.",
-        "Rifky Ibnu Abdul A., S.Pd., Gr."
+        "Anastasia Rendo, S.Pd"
       ]
     },
     {
@@ -107,7 +107,7 @@ const dataGuruPiket = [
       waktu: "07.30 - 10.00",
       guru: [
         "M. Nasir, S.Sy., Gr.",
-        "Sopiana, S.Th., Gr.",
+        "Rifky Ibnu Abdul A., S.Pd., Gr.",
         "Meydi Susanti, S.Pd"
       ]
     },
