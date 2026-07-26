@@ -46,7 +46,7 @@ const dataGuruPiket = [
       guru: [
         "Jasmir, S.Pd., Gr.",
         "Maria Dwi O.L., S.Pd., Gr.",
-        "Agustinus Bhakti Parrangan, S.Pd., M.Pd"
+        "Anastasia Rendo, S.Pd"
       ]
     },
     {
@@ -115,7 +115,7 @@ const dataGuruPiket = [
       waktu: "10.00 - 13.00",
       guru: [
         "Maria Dwi O.L., S.Pd., Gr.",
-        "Nurmaya Sihotang, S.Pd., M.Pd., Gr.",
+        "Agustinus Bhakti Parrangan, S.Pd., M.Pd",
         "Marlin Mario Eva Sumual, S.Pd.K., MA., Gr."
       ]
     },
@@ -123,7 +123,7 @@ const dataGuruPiket = [
       waktu: "13.00 - 16.00",
       guru: [
         "Muhammad Nasir, S.Pd., Gr.",
-        "Emiliana, S.Pd",
+        "Nurmaya Sihotang, S.Pd., M.Pd., Gr.",
         "Yuvenalis Raga Gening, S.Ag., M.Th"
       ]
     }
