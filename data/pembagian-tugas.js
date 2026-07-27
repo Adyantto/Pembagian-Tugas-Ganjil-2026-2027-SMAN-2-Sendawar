@@ -19,7 +19,7 @@ const pembagianTugas = [
 
 /* ========== AL MISBAH HAJIHI ========== */
 { username:"199406062020122026", jenis:"mengajar", uraian:"PKN", kelas:"XI A, B, C, D, E, F, XII E, F, G", jp:18 },
-{ username:"199406062020122026", jenis:"mengajar", uraian:"Sejarah", kelas:"X A, B, C", jp:6 },
+{ username:"199406062020122026", jenis:"mengajar", uraian:"Sejarah", kelas:"X A, B", jp:4 },
 { username:"199406062020122026", jenis:"tambahan", uraian:"Koor. Projek Kelas X A", kelas:"", jp:2 },
 { username:"199406062020122026", jenis:"tambahan", uraian:"Koor. Projek Kelas X B", kelas:"", jp:2 },
 { username:"199406062020122026", jenis:"tambahan", uraian:"Koor. Projek Kelas X C", kelas:"", jp:2 },
@@ -230,7 +230,6 @@ const pembagianTugas = [
 { username:"198711222025212023", jenis:"tambahan", uraian:"Guru Wali", kelas:"", jp:2 },
 
 /* ========== NURMAYA SIHOTANG ========== */
-{ username:"199108242025212058", jenis:"mengajar", uraian:"Sejarah", kelas:"X D, E", jp:4 },
 { username:"199108242025212058", jenis:"mengajar", uraian:"Sosiologi", kelas:"X G, H, I, J, K", jp:15 },
 { username:"199108242025212058", jenis:"mengajar", uraian:"Sosiologi", kelas:"XI A, B", jp:10 },
 { username:"199108242025212058", jenis:"tambahan", uraian:"Guru Wali", kelas:"", jp:2 },
