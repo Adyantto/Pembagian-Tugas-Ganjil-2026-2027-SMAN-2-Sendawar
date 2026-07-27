@@ -242,7 +242,6 @@ const pembagianTugas = [
 
 /* ========== PETRONELA SHERLLY ========== */
 { username:"199405162024212036", jenis:"mengajar", uraian:"PKN", kelas:"XI G, H", jp:4 },
-{ username:"199405162024212036", jenis:"mengajar", uraian:"Sejarah", kelas:"X F, G, H, I, J, K", jp:12 },
 { username:"199405162024212036", jenis:"mengajar", uraian:"PKN", kelas:"X F, G, H, I, J, K", jp:12 },
 { username:"199405162024212036", jenis:"tambahan", uraian:"Koor. Projek Kelas X G", kelas:"", jp:2 },
 { username:"199405162024212036", jenis:"tambahan", uraian:"Koor. Projek Kelas X H", kelas:"", jp:2 },
@@ -341,6 +340,10 @@ const pembagianTugas = [
 { username:"Yuvenalis Raga Gening", jenis:"mengajar", uraian:"Agama Katolik", kelas:"XI A, B, C, D", jp:12 },
 { username:"Yuvenalis Raga Gening", jenis:"mengajar", uraian:"Agama Katolik", kelas:"XII A, B, C, D, E, F, G", jp:21 },
 { username:"Yuvenalis Raga Gening", jenis:"tambahan", uraian:"Guru Wali", kelas:"", jp:2 },
+
+/* ========== YUSUF DENATA ========== */
+{ username:"Yusuf Denata", jenis:"mengajar", uraian:"Sejarah", kelas:"XI A, B, C", jp:6 },
+{ username:"199405162024212036", jenis:"mengajar", uraian:"Sejarah", kelas:"X C, D, E, F, G, H, I, J, K", jp:18 },
 
 ];
 
