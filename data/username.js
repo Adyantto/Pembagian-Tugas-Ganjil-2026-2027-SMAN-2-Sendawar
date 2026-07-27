@@ -61,7 +61,8 @@ const masterGuru = [
   { username:"Fidelis Anastasius F.", nip:"", nama:"Fidelis Anastasius F., S.Pd., Gr." },
   { username:"Rifky Ibnu Abdul Aziz", nip:"", nama:"Rifky Ibnu Abdul A., S.Pd., Gr." },
   { username:"Vidrich Dendi", nip:"", nama:"Vidrich Dendi, S.Pd., Gr." },
-  { username:"Yuvenalis Raga Gening", nip:"", nama:"Yuvenalis Raga Gening, S.Ag., M.Th" }
+  { username:"Yuvenalis Raga Gening", nip:"", nama:"Yuvenalis Raga Gening, S.Ag., M.Th" },
+  { username:"Yusuf Denata", nip:"", nama:"Yusuf Denata, S.Pd., Gr." }
 ];
 
 window.masterGuru = masterGuru;
