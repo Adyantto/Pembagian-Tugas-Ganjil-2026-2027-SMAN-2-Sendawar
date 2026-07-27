@@ -343,7 +343,8 @@ const pembagianTugas = [
 /* ========== YUSUF DENATA ========== */
 { username:"Yusuf Denata", jenis:"mengajar", uraian:"Sejarah", kelas:"XI A, B, C", jp:6 },
 { username:"Yusuf Denata", jenis:"mengajar", uraian:"Sejarah", kelas:"X C, D, E, F, G, H, I, J, K", jp:18 },
-
+{ username:"Yusuf Denata", jenis:"tambahan", uraian:"Guru Wali", kelas:"", jp:2 },
+   
 ];
 
 window.pembagianTugas = pembagianTugas;
